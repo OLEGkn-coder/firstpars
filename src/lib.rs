@@ -1,4 +1,3 @@
-use peg;
 peg::parser! {
  pub grammar list_parser() for str{
   rule number() -> u32
